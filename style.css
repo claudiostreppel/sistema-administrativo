@@ -1,0 +1,67 @@
+.max-width{
+    max-width: 930px;
+}
+
+section{
+    padding: 50px 0;
+}
+
+@media(max-width: 690px){
+    section{
+        padding: 20px 0;
+        background-color: blue;
+    }
+}
+
+.top{
+    color: #141b29;
+    display: flex;
+    background: url("https://www.tuiuti.edu.br/hs-fs/hubfs/analise%20e%20desenvolvimento%20de%20sistemas%20utp.jpg?width=1000&name=analise%20e%20desenvolvimento%20de%20sistemas%20utp.jpg");
+    height: 83vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.top .max-width{
+    width: 100%;
+    display: flex;
+}
+
+.top .top-content .text-1{
+    font-size: 25px;
+}
+
+.top .top-content .text-2{
+    font-size: 55px;
+    font-weight: 400;
+    margin-left: -3px;
+}
+
+.top .top-content .text-3{
+    font-size: 32px;
+    margin: 5px 0;
+    margin-left: -3px;
+}
+.top .top-content a{
+   display: inline-block;
+   background-color: #1f80e0;
+   color: #fff;
+   font-size: 25px;
+   text-decoration: none;
+   padding: 12px 36px;
+   margin-top: 20px;
+   font-weight: 300;
+   border-radius: 12px;
+   border: 2px solid #1f80e0;
+   transition: all 0.9s ease-in
+}
+.top .top-content a:hover{
+    color: #1f80e0;
+    background: none;
+
+
+
+}
